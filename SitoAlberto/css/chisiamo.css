@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px 0px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header .logo {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    z-index: 20000;
+}
+header .logo:hover {
+    color: #333333;
+}
+
+.navbar {
+    display: inline;
+    right: 40px;
+    position: relative;
+    top: 10px;
+    z-index: 20000;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    float: right;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar li a:hover {
+    color: rgb(161, 161, 161);
+}   
+
+
+.banner1 {
+    padding: 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+.banner1 h1 {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+
+.divi{
+background-color: rgb(65, 65, 65);
+    border: none;
+    height: 4px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+
+.titolo {
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.sottotitolo{
+background-color: rgb(0, 0, 0);
+    border: none;
+    height: 4px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.container {
+    display: flex;
+    background: url(img/chisiamo.jpg);
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.esperienze {
+    text-align: center;
+    margin: 70px 50px;
+}
+.esperienze img {
+    width: 450px;
+    height: 285px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.esperienze p {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: 5px;
+    text-align: left;
+    margin: 40px;
+   
+}
+
+.esperienze b{
+    font-size: 20px;
+}
+.formazione {
+    text-align: center;
+    margin: 70px 50px;
+}
+.formazione img {
+    width: 450px;
+    height: 285px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.formazione p {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: 5px;
+    text-align: left;
+    margin: 40px;
+    
+}
+
+
+.visita p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.visita img{
+    width: 120px;
+    height: 120px;
+   
+    
+}
+
+.visita{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.visita h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.step {
+    display: inline-block;
+    text-align: center;
+    margin: 50px 20px;
+    max-height: 400px ;
+    vertical-align: top;
+    
+}
+
+
+
+.visitutto p{
+max-width: 200px;
+
+}
+
+@media screen and (max-width: 1134px) {
+    .esperienze p {
+        text-align: center;
+    }
+    .formazione p {
+        text-align: center;
+    }
+    .formazione {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+    
+}
+
+@media screen and (max-width: 550px) {
+    .formazione img {
+        width: 350px;
+        height: 220px;
+    }
+
+    .esperienze img {
+        width: 350px;
+        height: 230px;
+    }
+
+    .banner1 h1 {
+        margin-top: 120px;
+        font-size: 50px;
+    }
+
+    .container {
+        height: 400px;
+    }
+    .chi {
+        margin-right: 10px;
+    }
+    .siamo {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .chi {
+        margin-right: 10px;
+    }
+    .siamo {
+        margin-left: 10px;
+    }
+
+    .formazione img {
+        width: 270px;
+        height: 200px;
+    }
+
+    .esperienze img {
+        width: 270px;
+        height: 180px;
+    }
+
+    .esperienze p {
+        font-size: 13px;
+        margin: 10px;
+    }
+    .formazione p {
+        font-size: 13px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .formazione img {
+        width: 220px;
+        height: 200px;
+    }
+
+    .esperienze img {
+        width: 220px;
+        height: 150px;
+ 
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .esperienze p {
+       font-size: 20px;
+       margin: 0;
+    }
+    .formazione p {
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .banner1 h1{
+   font-size: 65px;
+   }
+
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+
+    .esperienze p {
+       font-size: 30px;
+       margin: 0px auto;
+    }
+    .formazione p {
+        font-size: 30px;
+    }
+}
+
